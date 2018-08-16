@@ -1,0 +1,172 @@
+* {
+box-sizing: border-box;
+}
+body {
+	margin:0;
+	font-family: 'Slabo 27px', serif;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+header { 
+	background:url(images/bg.jpeg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 450px;
+}
+/*a { color: #fbe75a; }*/
+h2 {
+	padding-top: 150px;
+	text-align: center; 
+}
+.container {
+	margin: 0 auto;
+	width: 1170px;
+	background: #fff;
+	color: #333;
+}
+.row {padding: 5% 0;}
+
+h3 {
+	text-align: center;
+	padding: 2% 0;
+}
+ul { list-style: none; }
+
+section {
+	padding:5% 0;
+	border-bottom: 1px solid #eee;
+}
+
+.card {
+	height: 100%;
+	margin: 2% auto;
+}
+.card-img-top {
+	max-height: 200px;
+}
+.card-text {
+	text-align: center;
+}
+/*links*/
+.s_links li {line-height: 2rem;}
+.s_links a img {
+	padding: 0 10px 0 0;
+	max-width: 100%;
+	height: 16px;
+}
+.badge-pill {
+	background: #fbe75a;
+	margin: 0 auto;
+}
+
+/*bg*/
+.card-1 .card-img-top {
+	background: url('images/tired.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-2 .card-img-top {
+	background: url('images/wwgd.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-3 .card-img-top {
+	background: url('images/friends.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-1a .card-img-top {
+	background: url('images/learn1.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-2a .card-img-top {
+	background: url('images/learn4.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-3a .card-img-top {
+	background: url('images/learn2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-1c .card-img-top {
+	background: url('images/uxx.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-2c .card-img-top {
+	background: url('images/webb.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-3c .card-img-top {
+	background: url('images/fnd.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+.card-1b .card-img-top {
+	background: url('images/learn3.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-2b .card-img-top {
+	background: url('images/oc.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-3b .card-img-top {
+	background: url('images/onlinelearn.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+.card-4 .card-img-top {
+	background: url('images/curious.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-5 .card-img-top {
+	background: url('images/agency.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-6 .card-img-top {
+	background: url('images/meet2.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-7 .card-img-top {
+	background: url('images/interview.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-8 .card-img-top {
+	background: url('images/saa.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+.card-9 .card-img-top {
+	background: url('images/interview3.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}

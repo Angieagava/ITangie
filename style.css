@@ -15,6 +15,13 @@ body {
 	font-family: 'Slabo 27px', serif;
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
+.container {
+	background: #fff;
+	color: #333;
+}
+.row {
+	padding: 5% 0;
+}
 .jumbotron { 
 	background:url(images/bg.jpeg);
 	background-size:cover;
@@ -27,13 +34,6 @@ h2 {
 	padding-top: 150px;
 	text-align: center; 
 }
-.container {
-	margin: 0 auto;
-	width: 1170px;
-	background: #fff;
-	color: #333;
-}
-.row {padding: 5% 0;}
 
 h3 {
 	text-align: center;
@@ -46,9 +46,15 @@ section {
 	border-bottom: 1px solid #eee;
 }
 
+.block_intro {
+	background: #ffc107;
+}
+
 .card {
 	height: 100%;
 	margin: 2% auto;
+	background: #ffc107;
+	border: 1px solid transparent;
 }
 .card-img-top {
 	max-height: 200px;

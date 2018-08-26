@@ -16,7 +16,6 @@ body {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .container {
-	background: #fff;
 	color: #333;
 }
 .row {
@@ -28,6 +27,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 450px;
+	z-index: -1;
 }
 /*a { color: #fbe75a; }*/
 h2 {
@@ -44,10 +44,6 @@ ul { list-style: none; padding:0; }
 section {
 	padding:5% 0;
 	border-bottom: 1px solid #eee;
-}
-
-.block_intro {
-	background: #ffc107;
 }
 
 .card {
@@ -184,4 +180,10 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 200px;
+}
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+  z-index: -1;
 }

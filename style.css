@@ -22,17 +22,18 @@ body {
 	padding: 5% 0;
 }
 .jumbotron { 
-	background:url(images/bg.jpeg);
+	background:url(images/bg.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 650px;
-	z-index: -1;
+	opacity: .7;
 }
 /*a { color: #fbe75a; }*/
-h2 {
-	padding-top: 150px;
+h1 {
+	padding-top: 15%;
 	text-align: center; 
+	z-index: 1000;
 }
 
 h3 {
@@ -51,6 +52,7 @@ section {
 	margin: 2% auto;
 	background: #ffc107;
 	border: 1px solid transparent;
+	opacity: .9;
 }
 .card-img-top {
 	max-height: 200px;
